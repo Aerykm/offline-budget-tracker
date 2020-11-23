@@ -1,3 +1,6 @@
+const CACHE_NAME = 'static-cache-v13';
+const DATA_CACHE_NAME = 'data-cache-v8';
+
 const FILES_TO_CACHE = [
     "/",
     "/icons/icon-192x192.png",
@@ -6,8 +9,7 @@ const FILES_TO_CACHE = [
     "/index.js",
     "/styles.css"];
 
-    const CACHE_NAME = 'static-cache-v13';
-    const DATA_CACHE_NAME = 'data-cache-v8';
+
 
     //Install service worker
     self.addEventListener('install', evt => {
